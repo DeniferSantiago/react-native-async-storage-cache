@@ -1,24 +1,27 @@
 {
   "name": "react-native-async-storage-cache",
-  "version": "1.1.0",
-  "description": "Based on react-native-clcasher",
+  "version": "1.2.0",
+  "description": "adds expiration functionality to React Native Async Storage",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "repository": {
     "type": "git",
-    "url": "git@github.com:erickjth/react-native-async-storage-cache.git"
+    "url": "git@github.com:DeniferSantiago/react-native-async-storage-cache.git"
   },
   "keywords": [
-    "Cacher"
+    "Cacher",
+    "React Native",
+    "Async Storage",
+    "Expirable Cache"
   ],
-  "author": "Erick Torres",
+  "author": "Denifer Santiago",
   "license": "ISC",
-  "homepage": "https://github.com/erickjth/react-native-async-storage-cache",
-  "dependencies": {
-    "mock-async-storage": "^1.0.3"
-  },
+  "homepage": "https://github.com/DeniferSantiago/react-native-async-storage-cache",
   "peerDependencies": {
-    "@react-native-community/netinfo": "^3.1.0"
+    "@react-native-community/async-storage": "^1.11.0"
+  },
+  "devDependencies": {
+    "mock-async-storage": "^1.0.3"
   }
 }
