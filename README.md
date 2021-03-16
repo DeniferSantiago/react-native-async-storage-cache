@@ -22,13 +22,13 @@ use following API:
 ## Installation
 
 ```
-npm install --save react-native-clcasher
+npm install --save react-native-async-storage-cache
 ```
 
 ## Usage
 
 ```
-const MemoryCache = require('react-native-clcasher/MemoryCache').default;
-
+const MemoryCache = require('react-native-async-storage-cache/MemoryCache').default;
+import { MemoryCache } from 'react-native-async-storage-cache/MemoryCache';
 MemoryCache.set(url, headers, maxAge)
 ```
