@@ -19,7 +19,7 @@
   "license": "ISC",
   "homepage": "https://github.com/DeniferSantiago/react-native-async-storage-cache",
   "peerDependencies": {
-    "@react-native-community/async-storage": "^1.12.1"
+    "@react-native-async-storage/async-storage": "^1.15.5"
   },
   "devDependencies": {
     "mock-async-storage": "^1.0.3"
